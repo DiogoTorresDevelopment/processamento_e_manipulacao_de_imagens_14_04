@@ -82,4 +82,6 @@ def pipeline(caminho_img):
 
 # Ponto de entrada do script
 if __name__ == "__main__":
-    pipeline("imagem_exame.jpg")
+    # Solicita ao usuário o nome da imagem a ser processada
+    nome_imagem = input("Digite o nome da imagem (com extensão, ex: exame.jpg): ")
+    pipeline(nome_imagem)

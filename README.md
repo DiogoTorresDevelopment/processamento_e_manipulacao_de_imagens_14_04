@@ -130,3 +130,16 @@ Este projeto é livre para fins educacionais.
 ### `salvar_imagem(nome, imagem)`
 - **O que faz**: Salva a imagem processada na pasta `resultados/` com o nome especificado.
 - **Impacto**: Armazena os resultados intermediários e finais para análise e documentação.
+
+## 🛠️ Como usar com diferentes imagens
+
+1. Copie a imagem que deseja processar para a **pasta raiz** do projeto (onde está o código Python).
+2. Execute o script com o comando:
+
+```bash
+python nome_do_arquivo.py
+```
+
+3. Quando solicitado, **digite o nome do arquivo da imagem**, incluindo a extensão (por exemplo: `imagem_exame.jpg`).
+
+O programa executará automaticamente todo o pipeline com a imagem fornecida.
